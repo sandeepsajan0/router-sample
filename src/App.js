@@ -1,28 +1,15 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-class App extends Component {
+import React from 'react'
+class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <br />
+        <h1>React Router</h1>
+        <p> Here is simle demo how React Routing is working.</p>
+        <p> On click <b>Users</b> or <b>Contact</b>, page will be redirect to a new route with new data/Component.</p> 
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

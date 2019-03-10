@@ -12,3 +12,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.activeColor{
+	color: red;
+}
+
+.div_routes{
+  margin-top: 50px;
+  margin-left: 7.5%;
+  padding-left: 5em;
+  padding-top: 1em;
+  width: 80%;
+  min-height: 550px;
+  background-color: #ececec;
+}
+
+.ul_routes li{
+  display: inline-block;
+}
